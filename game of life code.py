@@ -4,7 +4,7 @@ import random
 import time
 
 def drawScreenBorders():
-    pen = turtle.Turtle()
+    pen = turtle.Turtle()  
     pen.hideturtle()
     pen.penup()
     pen.goto(-350, 350)
@@ -123,3 +123,4 @@ while not stop:
     wn.update()
     updateCells(cells)
     time.sleep(0.1)
+
